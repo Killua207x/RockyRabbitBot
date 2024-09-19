@@ -4,8 +4,8 @@ from pydantic_settings import BaseSettings, SettingsConfigDict
 class Settings(BaseSettings):
     model_config = SettingsConfigDict(env_file=".env", env_ignore_empty=True)
 
-    API_ID: int
-    API_HASH: str
+    API_ID: 26446336
+    API_HASH: dd1477d16488c89ccf3d4c73b2c2d477
 
     REF_LINK: str = "https://t.me/rocky_rabbit_bot/play?startapp=frId6624523270" # NOT WORKING RIGHT NOW !
 
